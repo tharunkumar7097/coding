@@ -1,0 +1,10 @@
+class arithmetic:
+  def mul(self,a=10,b=20,c=30):
+    print(a*b*c)
+obj=arithmetic()
+obj.mul(a,10)
+obj.mul(12,15)
+obj.mul(10,10,10)
+
+    
+    
