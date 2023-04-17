@@ -1,8 +1,8 @@
 class program:
   a=10
-  --b=20
+  __b=20
   def hiding(self):
-    print(self.--b)
+    print(self.__b)
     print("display essential code")
 obj=program()
 print(obj.a)
