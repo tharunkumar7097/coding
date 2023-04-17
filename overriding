@@ -1,0 +1,8 @@
+class maths:
+  def add(self):
+    print('addition')
+class trigonometry(maths):
+  def add(self):
+    print('cosine')
+obj=trigonometry()
+obj.add()
